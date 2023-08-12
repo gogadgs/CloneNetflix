@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    overflow-x:none;
+}
+
+:root{
+--vermelho:#E50914;
+--preto:#141414;
+--fonte-padrao:'Times new Roman',times,serif;
+--fonte-netflix:'Arial Black';
+}
+body{
+    display:block;
+    background:var(--preto);
+    font-family:var(--fonte-padrao);
+    color:#fafafa;
+    
+}
+main{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    
+}
+
+::-webkit-scrollbar{
+    width:8px;
+}
+
+
+::-webkit-scrollbar-button:hover{
+    opacity:0.7;
+}
+::-webkit-scrollbar-thumb{
+    background:#3498db!important ;
+    border-radius:150px;
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    -ms-border-radius:150px;
+    -o-border-radius:150px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background:#f3026e !important  ;
+    
+}
+
+
+
+
+
+
+
+
+
+
